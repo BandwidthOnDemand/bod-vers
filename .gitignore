@@ -1,0 +1,14 @@
+/target
+/bin
+.settings
+.classpath
+.project
+.checkstyle
+.springBeans
+.cache
+log.roo
+rebel.xml
+bod.log
+.DS_Store
+logfile
+.externalToolBuilders/
