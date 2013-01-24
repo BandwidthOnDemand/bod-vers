@@ -7,6 +7,12 @@
     <version>0.1.1-SNAPSHOT</version>
     <name>bod-vers</name>
 
+    <parent>
+        <groupId>nl.surfnet.bod</groupId>
+        <artifactId>bod-parent-pom</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <axis2.version>1.5.6</axis2.version>
@@ -30,7 +36,7 @@
             <artifactId>axis2</artifactId>
             <version>${axis2.version}</version>
         </dependency>
-        
+
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-xmlbeans</artifactId>
@@ -81,16 +87,4 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>surfnet-releases</id>
-            <name>surfnet-releases</name>
-            <url>http://atlas.dlp.surfnet.nl/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>surfnet-snapshots</id>
-            <name>surfnet-snapshots</name>
-            <url>http://atlas.dlp.surfnet.nl/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
