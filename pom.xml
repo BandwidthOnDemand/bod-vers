@@ -4,7 +4,7 @@
     <groupId>nl.surfnet.bod</groupId>
     <artifactId>bod-vers</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
     <name>bod-vers</name>
 
     <parent>
@@ -22,7 +22,8 @@
         <connection>scm:git:git@github.com:BandwidthOnDemand/bod-vers.git</connection>
         <developerConnection>scm:git:git@github.com:BandwidthOnDemand/bod-vers.git</developerConnection>
         <url>https://github.com/BandwidthOnDemand/bod-vers</url>
-    </scm>
+      <tag>bod-vers-0.1.1</tag>
+  </scm>
 
     <dependencies>
 
