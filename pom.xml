@@ -10,17 +10,18 @@
     <parent>
         <groupId>nl.surfnet.bod</groupId>
         <artifactId>bod-parent-pom</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <version>0.1.1</version>
     </parent>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <axis2.version>1.5.6</axis2.version>
         <axiom.version>1.2.12</axiom.version>
     </properties>
 
     <scm>
+        <connection>scm:git:git@github.com:BandwidthOnDemand/bod-vers.git</connection>
         <developerConnection>scm:git:git@github.com:BandwidthOnDemand/bod-vers.git</developerConnection>
+        <url>https://github.com/BandwidthOnDemand/bod-vers</url>
     </scm>
 
     <dependencies>
