@@ -10,11 +10,10 @@
     <parent>
         <groupId>nl.surfnet.bod</groupId>
         <artifactId>bod-parent-pom</artifactId>
-        <version>0.1.1</version>
+        <version>0.1.2-SNAPSHOT</version>
     </parent>
 
     <properties>
-        <axis2.version>1.5.6</axis2.version>
         <axiom.version>1.2.12</axiom.version>
     </properties>
 
@@ -26,23 +25,17 @@
   </scm>
 
     <dependencies>
-
         <dependency>
             <groupId>org.apache.xmlbeans</groupId>
             <artifactId>xmlbeans</artifactId>
-            <version>2.4.0</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2</artifactId>
-            <version>${axis2.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-xmlbeans</artifactId>
-            <version>${axis2.version}</version>
         </dependency>
 
         <dependency>
@@ -50,8 +43,6 @@
             <artifactId>axiom-api</artifactId>
             <version>${axiom.version}</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
@@ -71,7 +62,6 @@
             <plugin>
                 <groupId>org.apache.axis2</groupId>
                 <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
-                <version>${axis2.version}</version>
                 <executions>
                     <execution>
                         <goals>
